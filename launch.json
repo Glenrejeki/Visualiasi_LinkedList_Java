@@ -1,14 +1,12 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
       "type": "java",
-      "name": "Current File",
+      "name": "Launch JavaFX App (VisualisasiHeap)",
       "request": "launch",
-      "mainClass": "${file}"
+      "mainClass": "VisualisasiHeap",
+      "vmArgs": "--module-path \"D:/SEMESTER 4/ASTRUDAT/Praktikum/Week 7/javafx-sdk-24/lib\" --add-modules javafx.controls"
     }
   ]
 }
